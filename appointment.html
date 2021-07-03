@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="w3pro.css">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+$(document).ready(function(){
+    $("#flip0").click(function(){
+        $("#panel0").slideToggle("slow");
+    })
+})
+
+$(document).ready(function(){
+    $("#flip1").click(function(){
+        $("#panel1").slideToggle("slow");
+    });
+});
+
+$(document).ready(function(){
+    $("#flip2").click(function(){
+        $("#panel2").slideToggle("slow");
+    });
+});
+
+$(document).ready(function(){
+    $("#flip3").click(function(){
+        $("#panel3").slideToggle("slow");
+    });
+});
+
+$(document).ready(function(){
+    $("#flip4").click(function(){
+        $("#panel4").slideToggle("slow");
+    });
+});
+
+$(document).ready(function(){
+    $("#flip5").click(function(){
+        $("#panel5").slideToggle("slow");
+    });
+});
+$(document).ready(function(){
+    $("#flip6").click(function(){
+        $("#panel6").slideToggle("slow");
+    })
+})
+    </script>
+<style>
+body {
+    font-family: 'Lato', sans-serif;
+    background-image:url("binary.jpeg");
+        background-repeat: no-repeat;
+       background-size: cover;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+   
+    .title {
+        color: crimson;
+    }
+    cir {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+
+}
+.con {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+    
+    .flip {
+        padding: 5px;
+        text-align: center;
+        background-image:url('matrix1.gif');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        overflow:auto;
+        border: solid 1px red;
+    }
+    .panel0 {
+        padding: 50px;
+        display: none;
+        text-align: center;
+        background-image:url('inner5.gif'); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        overflow:hidden;
+        border: solid 1px rgb(17, 0, 255); 
+        color: rgb(102, 255, 0); 
+    }
+    .panel1 {
+        padding: 50px;
+        display: none;
+        text-align: center;
+        background-image:url('inner2.gif'); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        overflow:hidden;
+        border: solid 1px rgb(17, 0, 255);
+        color: rgb(255, 0, 0);
+     
+    }
+    .panel2 {
+        padding: 50px;
+        display: none;
+        text-align: center;
+        background-image:url('inner1.gif'); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        overflow:hidden;
+        border: solid 1px rgb(17, 0, 255);
+        color: aliceblue; 
+    }
+    .panel3 {
+        padding: 50px;
+        display: none;
+        text-align: center;
+        background-image:url('inner3.gif'); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        overflow:hidden;
+        border: solid 1px rgb(17, 0, 255);
+        color: rgb(255, 0, 0);  
+    }
+    .panel4 {
+        padding: 50px;
+        display: none;
+        text-align: center;
+        background-image:url('inner6.gif'); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        overflow:hidden;
+        border: solid 1px rgb(17, 0, 255); 
+        color: rgb(0, 255, 221); 
+    }
+    .panel5 {
+        padding: 50px;
+        display: none;
+        text-align: center;
+        background-image:url('inner4.gif'); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        overflow:hidden;
+        border: solid 1px rgb(17, 0, 255);
+        color: rgb(0, 255, 42);  
+    }
+    .panel6 {
+        padding: 50px;
+        display: none;
+        text-align: center;
+        background-image:url('inner0.gif'); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        overflow:hidden;
+        border: solid 1px rgb(17, 0, 255);
+        color: rgb(253, 253, 253);  
+    }
+
+</style>
+<head>
+    <div class="con">
+        <span style="font-size:30px;cursor:pointer;color: gold; float: left;" onclick="openNav()">&#9776; MENU</span>
+        <br><p style="float: left;">Contact Info
+        <a href="tel:18683105097" style="color: firebrick;">Tel: 1(868)310-5097</a>
+    </p>
+    <p style="float: right;">Address:<a href="loc.png" target="_blank"style="color: firebrick;">#36 Ali Mohammed Rd<br>Batchiya,Penal.</a></p>
+    <img src="circle.gif" alt="circle" width="400" height="450" class="cir">
+</div>
+</head>
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="index.html">Home</a>
+          <a href="#">Services</a>
+          <a href="appointment.html">Appointments</a>
+          <a href="down.html">Downloads</a>
+        </div>
+      </div>
+     
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
+   
+        
+        <div id="flip0" class="flip" style="cursor: pointer; font-family: 'Lobster', cursive; font-size: 25px; color: deeppink;">"On-Site Services"</div> 
+            <div id="panel0" class="panel0">"REPAIR SERVICE ON-SITE"<br>
+            Extension of the standard repair service to include the option of repair at your location.<br>Your benefit:<br>
+            Failure investigation is conducted in the original environment.<br>Reduced downtime.<br><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdi0zWG1V4KuM_oaiMX9yUCRCtg5h1C8Cla3SJA5EHQ3KDPpg/viewform?embedded=true" width="400" height="481" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+    
+            <div id="flip2" class="flip" style="cursor: pointer; font-family: 'Lobster', cursive; font-size: 25px; color: rgb(255, 251, 0);">"SECURITY CAM SYSTEM SALES AND INSTALLATION"</div>    
+    <div id="panel2" class="panel2">Providing Professional Installation And Maintenance Of Both Residential & Commercial Security Systems At The Most Affordable Prices.  world-class security camera systems installed by professional security camera system installers. We have years of experience in planning, customizing and installing comprehensive CCTV systems. We offer IP video surveillance systems, indoor and outdoor camera systems and cutting-edge video analytics. We specialize in designing and installing business security camera systems.<br><iframe src="https://docs.google.com/forms/d/e/1FAIpQLScY9lRUL61gDX-7iD42U--Qs40SxYKr-jGsp0OOGAat_QxBnw/viewform?embedded=true" width="400" height="481" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> </div>
+    <div id="flip3" class="flip" style="cursor: pointer; font-family: 'Lobster', cursive; font-size: 25px; color: rgb(212, 0, 255);">"CLOUD BASE NETWORK FOR BUSINESSES AND HOME"</div>    
+    <div id="panel3" class="panel3"><b>By using a cloud network an organization can deliver content more rapidly, reliably, and securely, without having to bear the costs and difficulties of building and operating its own network. A variety of organizations may find value in using a cloud network, including web content providers, ecommerce businesses, cloud service providers, enterprises using public or private cloud services, or network operators looking to extend their network reach.</b></div>
+    <div id="flip4" class="flip" style="cursor: pointer; font-family: 'Lobster', cursive; font-size: 25px; color: rgb(158, 243, 0);">"SECURITY LOCKS AND KEYPAD SALES AND INSTALLATION"</div>    
+    <div id="panel4" class="panel4">Access Control Systems,Biometric Systems,Fire Alarms,Voice/Video Intercoms,Wired/Wireless Alarm Systems & Networking.Sales & Services At The Lowest Prices Guaranteed,Professional Installation,Upgrades & Repairs . </div>
+    <div id="flip5" class="flip" style="cursor: pointer; font-family: 'Lobster', cursive; font-size: 25px; color: rgb(217, 255, 0);">"WEB & APP DEVELOPMENT"</div>    
+    <div id="panel5" class="panel5">We develop native apps for mobile phones and tablets. Our web development service sets up experiences that clearly communicate your brand, guide browsers toward specific goals, and make your customers smile.<br><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc29wEhDVdI3BM32lvYf66vBRcWgHzW31r14MnFGImRs7DvdQ/viewform?embedded=true" width="400" height="481" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+    <div id="flip6" class="flip" style="cursor: pointer; font-family: 'Lobster', cursive; font-size: 25px; color: rgb(255, 0, 0);">"DEVICE
+        REPAIRS AND UPGRADES"</div> 
+    <div id="panel6" class="panel6">"REPAIR SERVICE"<br>
+        S&S will repair systems for a fixed price within a guaranteed timeframe for the duration of the contract. It assumes the delivery costs for the repair of the system.<br>Your benefit:<br>Repair by professionalhighly trained S&S technicians<br>Full system check<br>Fast turnaround time<br><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdI8M-tduuSSxrda0CkhoagsiKyr_IzfGQIcFpjgc0nhfZMjQ/viewform?embedded=true" width="400" height="481" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div> 
+        <div style="color: rgb(251, 255, 0); font-size: 12px;" class="a2a_kit a2a_kit_size_32 a2a_default_style">
+           "SUPPORT AND SHARE"</a>
+           <a href="https://sandscomputers.godaddysites.com/home" title="Visit S & S Computers!" target="_blank">
+            <p style=" font-size: 15px; color: rgb(255, 8, 0); text-align: right;">Desighn By S&S Computers</p>
+        </a>
+            <a class="a2a_button_whatsapp"></a>
+            
+            </div>
+            <!-- AddToAny END -->
+            <script async src="https://static.addtoany.com/menu/page.js"></script>
+           
+    
+</body>
+
+</html>

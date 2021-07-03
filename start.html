@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Page Title</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+<style>
+body {
+    font-family: 'Lato', sans-serif;
+    background-image:url("binary.jpeg");
+        background-repeat: no-repeat;
+       background-size: cover;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+   
+    .title {
+        color: crimson;
+    }
+    .cir {
+        display: block;
+        margin-left: 32%;
+        margin-right: auto;
+    }
+    .cen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+
+}
+.con {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+</style>
+<head>
+    
+    <div class="con">
+        <span style="font-size:30px;cursor:pointer;color: gold; float: left;" onclick="openNav()">&#9776; MENU</span>
+        <br><p style="float: left;">Contact Info
+        <a href="tel:18683105097" style="color: firebrick;">Tel: 1(868)310-5097</a>
+    </p>
+    <p style="float: right;">Address:<a href="loc.png" target="_blank"style="color: firebrick;">#36 Ali Mohammed Rd<br>Batchiya,Penal.</a></p>
+    <img src="circle.gif" alt="circle" width="460" height="345" class="cir">
+    <div class="cen font-effect-fire" style="text-align: center;color: red;">"S&S Computers"<br><a style="font-size: 15px;">Device Repairs & Upgrades</a></div>
+</div>
+</head>
+    
+<body>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#">Home</a>
+          <a href="#">Services</a>
+          <a href="#">Appointments</a>
+          <a href="#">Downloads</a>
+        </div>
+      </div>
+     
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+        </script>
+    <form method="get" action="S&S.apk" style="margin-left: 3%;" >
+        <button title="S&S Computer repairs app" style="color: rgb(255, 0, 0); float: left; padding: 5px; border: solid 2px; border-color: rgb(255, 0, 0); background-color: bisque;" type="submit">Download S&S Computer Repairs App</button>
+        <a title="S&S Computer repairs app" target="_blank" style="color: rgb(0, 17, 255); float: left; padding: 5px; border: solid rgb(124, 114, 0); background-color: bisque;" href="https://drive.google.com/file/d/1tMNeBE12nRxQdLRhu0vo4n72ZR7h8U7Q/view?usp=sharing">"S&S Computers apk"</a>
+        <a title="UTorrent app" target="_blank" style="color: rgb(0, 17, 255); float: left; padding: 5px; border: solid rgb(124, 114, 0); background-color: bisque;" href="https://drive.google.com/file/d/1n2IKo3rjCjDp75WCI2kBh8UqfbYidVus/view?usp=sharing">"UTorrent Desktop"</a>
+        <a title="S&S Computer repairs app" target="_blank" style="color: rgb(0, 17, 255); float: left; padding: 5px; border: solid rgb(124, 114, 0); background-color: bisque;" href="https://drive.google.com/file/d/1hY6sAN76MdaybCzjowUAw55ZzKLgH2CL/view?usp=sharing">"APO Equalizer Desktop"</a>
+        <a title="Revo Unistaller app" target="_blank" style="color: rgb(0, 17, 255); float: left; padding: 5px; border: solid rgb(124, 114, 0); background-color: bisque;" href="https://drive.google.com/file/d/15mQU6Dpsm7-Y_JJohrH6L-BN0eYmQ8Hg/view?usp=sharing">"Revo Uninstaller Desktop"</a>
+        <a title="Virtual DJ v7" target="_blank" style="color: rgb(0, 17, 255); float: left; padding: 5px; border: solid rgb(124, 114, 0); background-color: bisque;" href="https://drive.google.com/file/d/1Y5zqb4ptOv6LEr6x0jrlp3hagxmwXCpC/view?usp=sharing">"Virtual DJ v7 PRO+Crack Desktop"</a>
+    </form>
+
+</body>
+
+
+</html>
